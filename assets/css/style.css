@@ -1,0 +1,461 @@
+/*NAVBAR STYLE*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .navbar {
+    font-size: 16px;
+    background-color: #24252A;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    border-bottom: solid 2px #E5C129; 
+  }
+  
+  #main-nav {
+    list-style-type: none;
+    display: none;
+    flex-direction: column;
+  }
+
+  .active{
+    color: rgba(255, 255, 255, 1) !important;
+    border-bottom: solid 2px #fff !important; 
+  }
+  
+  #main-nav li {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .nav-link,
+  #logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  #logo:hover,
+  .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  #logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  #navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+  }
+  
+  #navbar-toggle:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+/*AKHIR NAVBAR STYLE*/
+
+/*STYLE BANER*/
+.baner {
+    height: 400px;
+    background-color: rgba(229,193,41,0.8);
+    padding: 40px;
+}
+
+.container {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.judul {
+    font-size: 36px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.isi {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.btn {
+    margin-top: 10px;
+}
+
+.btn-baner1 {
+    padding: 9px 25px;
+    color: #fff;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.btn-baner2 {
+    padding: 9px 25px;
+    color: #fff;
+    background-color: rgba(40,180,99,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.btn-baner1:hover {
+    background-color: rgba(0,136,169,0.8);
+    text-decoration: none;
+}
+.btn-baner2:hover {
+    background-color: rgba(40,180,99,0.8);
+    text-decoration: none;
+}
+/*AKHIR STYLE BANER*/
+
+/* FITUR STYLE */
+.fitur {
+    height: 200px;
+    background-color: rgb(240,240,240);
+    padding: 40px auto;
+    display: flex;flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fitur-list {
+    padding: 10px;
+    height: 70px;
+    width: 150px;
+    border: solid 2px rgba(229,193,41,0.9);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fitur-list:hover {
+    background-color: rgba(229,193,41,0.9);
+    transition: all 0.8s ease 0.2s;
+    color: white;
+}
+/* AKHIR FITUR STYLE */
+
+/* STYLE BAGIAN BLOG */
+.blog{
+    padding: 0px 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-header {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jb {
+    padding-bottom: 5px;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-bottom: solid 2px rgb(229,193,41);
+}
+.jb-desk {
+    padding: 10px;
+}
+
+.blog-container {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.konten-blog {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: solid 1px #E5E7E9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.blog-header {
+    text-align: center;
+    padding: 5px;
+    border-bottom: solid 1px #E5E7E9;
+}
+.judul-blog {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+.desk-blog {
+    font-size: 12px;
+    color: #909497;
+    padding-bottom: 10px;
+}
+.isi-blog {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 15px auto; 
+    text-align: justify;
+}
+
+.btn-blog {
+    padding: 9px 25px;
+    color: #fff;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0.2s;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-blog:hover {
+    background-color: rgba(0,136,169,0.8);
+    text-decoration: none;
+}
+/* AKHIR STYLE BAGIAN BLOG */
+
+/* STYLE BAGIAN FOOTER */
+.footer {
+    background-color: rgb(240,240,240);
+    padding: 0px 80px;
+    line-height: 30px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-kontak > h3 {
+    padding-bottom: 10px;
+}
+.footer-kontak > p {
+    font-size: 14px;
+    color: rgba(0,0,0,0.8);
+}
+
+.wa {
+    text-decoration: none;
+    color : rgba(0,136,169,1);
+}
+
+.layanan {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.layanan > a, .medsos > a {
+    text-decoration: none;
+    color : rgba(0,136,169,1);
+}
+.layanan > a:hover, .medsos > a:hover {
+    cursor: pointer;
+    color: rgba(0,136,169,0.8);
+}
+
+.medsos {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-bottom {
+    min-height: 80px;
+    background-color: rgb(29,30,34);
+    color: rgba(255,255,255,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* AKHIR STYLE BAGIAN FOOTER */
+
+/* STYLE BAGIAN PROFILE */
+.profile {
+    background-color: rgba(29,30,34,0.8);
+    color: rgba(250,250,250,0.9);
+    padding: 20px 40px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.list-tim {
+    border: solid 2px rgba(229,193,41,0.9);
+    border-radius: 10px;
+    padding: 15px;
+}
+.list-tim:hover {
+    background-color: rgba(229,193,41,0.9);
+    transition: all 0.3s ease 0.2s;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.profile-foto {
+    border-radius: 50%;
+}
+
+.profile-body {
+    text-align: center;
+    line-height: 30px;
+}
+.profile-name {
+    font-size: 26px;
+    color: rgba(255,255,255,1);
+}
+.profile-gender {
+    font-size: 18px;
+    color: rgba(255,255,255,0.6);
+}
+.profile-address, .profile-email, .profile-DOB, .profile-phone {
+    font-size: 16px;
+    color: rgba(255,255,255,0.9);
+}
+
+.btn-random {
+    margin-top: 20px; 
+    padding: 9px 25px;
+    color: #000;
+    background-color: rgba(229,193,41,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-random:hover {
+    background-color: rgba(229,193,41,0.8);
+    cursor: pointer;
+}
+/* AKHIR STYLE BAGIAN PROFILE */
+
+/* BAGIAN HALAMAN PROFILE */
+.profile-section {
+    height: 100px;
+    background-color: rgb(240,240,240);
+    padding: 40px auto;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p-title {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.p-desk {
+    font-size: 15px;
+}
+
+.table {
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+/* AKHIR BAGIAN HALAMAN PROFILE */
+
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+    }
+  
+    #main-nav {
+      display: flex !important;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  
+    #main-nav li {
+      margin: 0;
+    }
+  
+    .nav-link {
+      margin-left: 40px;
+    }
+  
+    #logo {
+      margin-top: 0;
+    }
+  
+    #navbar-toggle {
+      display: none;
+    }
+  
+} 
+
+@media screen and (max-width: 400px) {
+    .baner {
+        padding: 10px !important;
+    }
+
+    .container {
+        margin: 10px auto !important;
+    }
+
+    .judul {
+        padding: 7px !important;
+    }
+}
+/* AKHIR RESPONSIVE */
